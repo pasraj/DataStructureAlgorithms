@@ -1,14 +1,11 @@
 #include <cstdio>
-
 struct Node{
     int data;
     Node* next;
 };
 
 void EnQueue(int data);
-
 void Dequeue();
-
 void display();
 
 Node* newNode(int data){
